@@ -24,3 +24,6 @@ MPA:Modelo con numero indefinido de pages, es decir varios html
 Respecto a la nomenclatura es que se debe parecer es decir si en controllers tengo un archivo 
 que se llama archController, se tratara de poner en los demas que se llame archViews y su 
 extencion, en el caso de models Tambien "archController" y así.
+
+--Buenas practicas:
+    BEm-> Bloque-Elemento-Modificador:Esto se usa en css.
