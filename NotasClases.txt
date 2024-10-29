@@ -1,0 +1,26 @@
+Proyecto/
+    Controllers/
+    Models/
+    Views/
+        css/
+        img/
+        pages/
+
+NOTA:La documentacion del README.MD como minimo debe tener:
+introduccion al Proyecto
+tecnologias o herramientas de desarrollo
+paso a  paso de ejecucion
+
+--Models (Carpetas):
+    Se debe partir desde el modelo relacional, es decir desde la base de datos
+    empezado por la identificacion de las entidades y luego la relacion que se 
+    encuentra entre ellas.
+
+    Por cada tabla (Entidad) se crea un archivo de Java Script(JS) y es recomendable
+    hacer uso de Pascal Case
+
+MPA:Modelo con numero indefinido de pages, es decir varios html
+
+Respecto a la nomenclatura es que se debe parecer es decir si en controllers tengo un archivo 
+que se llama archController, se tratara de poner en los demas que se llame archViews y su 
+extencion, en el caso de models Tambien "archController" y así.
