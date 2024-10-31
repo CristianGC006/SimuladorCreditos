@@ -27,3 +27,13 @@ extencion, en el caso de models Tambien "archController" y así.
 
 --Buenas practicas:
     BEm-> Bloque-Elemento-Modificador:Esto se usa en css.
+
+
+--La propiedad inherit tomara las caracteristixas del elemento padre, es decir que el elemeno padre primero deberá tener 
+    una propiead definida antes de poder 
+
+--Objetos literales y objetos por Constructor (Terminos de JavaScript)
+
+-Objeto por constructor es una funcion de JS:
+    me permite recibir parametros, como una funcion y se recomienda que la inicial siempre sea en mayuscula
+    SIEMPRE, internametne la funcion me va a definir la clase.
