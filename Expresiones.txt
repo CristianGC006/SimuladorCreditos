@@ -1,0 +1,5 @@
+RegExR--Es una expresion regyular de javaScript.
+
+Id me permite acceder a la informacion de la etiqueta a la que le de el id pero ardara mas para identificar dicha etiqueta.
+
+Name hará que la etiqueta se identifique de manera mas rapida y directa

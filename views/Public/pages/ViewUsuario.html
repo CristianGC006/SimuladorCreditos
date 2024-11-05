@@ -3,45 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/ViewUsuario.css">
+    <link rel="stylesheet" href="../css/ViewUsuario.css" />
     <title>Usuario</title>
   </head>
   <body>
-    <form action="" class="login">
+    <form id="form-login" action="" class="login">
       <div>
         <label for="">Usuario</label>
-        <input type="text" />
+        <input name="login-usuario" type="text" />
       </div>
       <div>
         <label for="">contraseña</label>
-        <input type="text" />
+        <input name="login-contraseña" type="text" />
       </div>
       <button>Iniciar Seccion</button>
-      <p>¿No tiene cuenta?</p>
+      <p id="btnFormLogin">¿No tiene cuenta?</p>
     </form>
-    <form action="" class="register">
+    <form id="form-register" action="" class="register">
       <div>
         <label for="">Nombre Completo</label>
-        <input type="text" />
+        <input name="registerNombre" type="text" />
       </div>
       <div>
         <label for="">Usuario</label>
-        <input type="text" />
+        <input name="registerUsuario" type="text" />
       </div>
       <div>
         <label for="">Correo Electronico</label>
-        <input type="text" />
+        <input name="registerEmail" type="text" />
       </div>
       <div>
         <label for=""> contraseña</label>
-        <input type="text" />
+        <input name="registerContraseña" type="text" />
       </div>
       <div>
         <label for="">confirmar contraseña</label>
-        <input type="text" />
+        <input name="registerConfirmarCont" type="text" />
       </div>
       <button type="button">Registrarse</button>
-      <p>¿Ya tiene una cuenta?</p>
+      <p id="btnFormRegistro">¿Ya tiene una cuenta?</p>
     </form>
     <script src="/views/Public/js/script.js"></script>
   </body>

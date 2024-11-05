@@ -1,0 +1,7 @@
+Eventos
+    Eventos de usuario-->Toda accion que realiza un usuario sobre la aplicacion (Zoom, Scroll, doble click, minimizar, maximizar,etc)
+
+    Eventos de documento-->Es toda accion que es desencadenada por un evento del usuario, es decir, todo lo que sucede por debajo del codigo o lo que no ve el usuario.
+
+-El addEventListener, va a tomar este elemento y le va a agregar un elemento. 
+y necesitamos el evento y la accion 
