@@ -1,0 +1,51 @@
+Objetos:
+    Objetos por constructor--> Funciones, y es Similar a las  clases en Java, pero con algunas diferencias.
+
+Objetos literales:
+    Es una agrupacion de minimo un par de datos {llave:valor} construido desde 0
+
+--Los objetos son un atributo:'valor'
+  y normamente se asigna a una variable.
+
+  Ejemplo:
+  Let personas={
+    nombre: 'Juan',
+    apellido: 'Bolaños'
+    edad:19,
+  }
+
+  --Los objetos tambien van a tener comportamientos, es decir funciones asignadas al objeto como tal.
+    Ejemplo:
+    Let personas={
+        nombre: 'Juan',
+        apellido: 'Bolaños'
+        edad:19,
+        moverse:  function(){
+            console.log('Se ha movido')
+        }
+    }
+
+    y un objeto puede contener mas objetos.
+         Let personas={
+        nombre: 'Juan',
+        apellido: 'Bolaños'
+        edad:19,
+        moverse:  function(){
+            console.log('Se ha movido')
+        },
+        direcion{
+            calle:23,
+            carrera:23,
+            interior:20
+        }
+    }
+
+-Los selectrores del DOM, son la forma en la que javaScript define o entiende la manipulacion de una etiqueta HTML.
+    -getElement->Permite seleccionar elementos por id, clases y etiquetas.
+    -querySelector->Permite seleccionar elementos por id, por clases y por etiquetas.
+
+
+Arreglo:Conjunto de datos almacenados en una misma variable.
+    Siempre tendran un tamaño y una posicion, el tamañi esta definido por la cantidad de elementos y  la posicion esta definida por el indice. o por la cantidad de elementos -1.
+
+    Un arreglo en javaScript puede almacenar cualquier tipo de informaion o dato (Numeros, texto,booleanos, funciones, objetos y arreglos)
