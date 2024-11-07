@@ -37,3 +37,13 @@ extencion, en el caso de models Tambien "archController" y así.
 -Objeto por constructor es una funcion de JS:
     me permite recibir parametros, como una funcion y se recomienda que la inicial siempre sea en mayuscula
     SIEMPRE, internametne la funcion me va a definir la clase.
+
+
+Modulos de JavaScript
+    Exports and imports.
+    Se puede exportar lo que quiera (Variables, arreblos, etc).
+    al HTML Hya que colocarle SIEMPRE elatributo Module SIEMPRE.
+
+Pruebas con expresiones Regulares.
+    Se hace por medio de un condicional, primero se hace referencia a la exprsion regular
+    Ej:expresionRegular.nombre.test()-->Esta se usa para ingresar los parametros que se ingresen a la funcion
