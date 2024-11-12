@@ -10,39 +10,41 @@
     <form id="form-login" action="" class="login">
       <div>
         <label for="">Usuario</label>
-        <input name="login-usuario" type="text" />
+        <input id="login-usuario" name="login-usuario" type="text" />
       </div>
       <div>
         <label for="">contraseña</label>
-        <input name="login-contraseña" type="text" />
+        <input id="login-contraseña" name="login-contraseña" type="text" />
       </div>
-      <button>Iniciar Seccion</button>
+      <button id="btn-login" type="button">Iniciar Seccion</button>
       <p id="btnFormLogin">¿No tiene cuenta?</p>
     </form>
     <form id="form-register" action="" class="register">
       <div>
         <label for="">Nombre Completo</label>
-        <input name="registerNombre" type="text" />
+        <input id="registerNombre" name="registerNombre" type="text" />
+        <span id="mensajeNombre"></span>
       </div>
       <div>
         <label for="">Usuario</label>
-        <input name="registerUsuario" type="text" />
+        <input id="registerUsuario" name="registerUsuario" type="text" />
       </div>
       <div>
         <label for="">Correo Electronico</label>
-        <input name="registerEmail" type="text" />
+        <input id="registerEmail" name="registerEmail" type="text" />
       </div>
       <div>
         <label for=""> contraseña</label>
-        <input name="registerContraseña" type="text" />
+        <input id="registerContraseña" name="registerContraseña" type="text" />
       </div>
       <div>
         <label for="">confirmar contraseña</label>
-        <input name="registerConfirmarCont" type="text" />
+        <input id="registerConfirmarCont" name="registerConfirmarCont" type="text" />
       </div>
-      <button type="button">Registrarse</button>
+      <button id="btn-registrar" type="button">Registrarse</button>
       <p id="btnFormRegistro">¿Ya tiene una cuenta?</p>
     </form>
     <script type="module" src="/views/Public/js/script.js"></script>
+    <SCript type="module" src="../js/scriptUsuario.js"></SCript>
   </body>
 </html>

@@ -1,1 +1,6 @@
 Buscar metodo de los arreglos: map, find, filter, some, forEach, push, pop, slice
+
+
+11/12/2024
+
+metodo Shift(), unShift()
