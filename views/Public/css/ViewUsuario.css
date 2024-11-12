@@ -32,18 +32,31 @@ body{
     width: 60%;
 }
 .login input, .register input{
-    outline: none;
     height: 30px;
 }
 
-.login input:focus, .register input:focus{
+/* .login input:focus, .register input:focus{
     outline: none;
-    border-color: #77ce4d;
-}
+} */
 button[type="button"]{
     width: 40%;
     height: 40px;
     background-color: none;
     cursor: pointer;
     border:solid 2px #346d1e;
+}
+
+.correcto{
+    outline: solid 1px green;
+    
+}
+
+.incorrecto{
+    outline: solid 1px red;
+}
+
+#mensajeNombre{
+    transition: ease-in-out 1s;
+    background-color: red;
+    width: 400px;
 }
