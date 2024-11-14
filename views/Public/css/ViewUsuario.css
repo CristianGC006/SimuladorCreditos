@@ -43,11 +43,11 @@ button[type="button"]{
     height: 40px;
     background-color: none;
     cursor: pointer;
-    border:solid 2px #346d1e;
+    border:solid 2px #ff0000;
 }
 
 .correcto{
-    outline: solid 1px green;
+    outline: solid 1px rgb(94, 255, 0);
     
 }
 

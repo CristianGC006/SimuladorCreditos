@@ -17,7 +17,6 @@ for (let index = 0; index < inputs.length; index++) {
 }
 
 function validarFormulario(e) {
-  // console.log(e);
   switch (e.target.name) {
     case "registerNombre":
       if (expresionesRegulares.nombre.test(e.target.value)) {
@@ -28,10 +27,9 @@ function validarFormulario(e) {
       } else {
         document.getElementById("registerNombre").classList.add("incorrecto");
         document.getElementById("registerNombre").classList.remove("correcto");
-        //  document.getElementById("mensajeNombre").textContent="El nombre solo permite letras en mayusculas"
       }
       break;
-    case "registerUsuario": 
+    case "registerUsuario":
       if (expresionesRegulares.usuario.test(e.target.value)) {
         document.getElementById("registerUsuario").classList.add("correcto");
         document
@@ -52,23 +50,34 @@ function validarFormulario(e) {
       break;
 
     case "registerContraseña":
-      if(expresionesRegulares.contraseña.test(e.target.value)){
+      if (expresionesRegulares.contraseña.test(e.target.value)) {
         document.getElementById("registerContraseña").classList.add("correcto");
-        document.getElementById("registerContraseña").classList.remove("incorrecto");
+        document
+          .getElementById("registerContraseña")
+          .classList.remove("incorrecto");
       } else {
-        document.getElementById("registerContraseña").classList.add("incorrecto");
-        document.getElementById("registerContraseña").classList.remove("correcto");
+        document
+          .getElementById("registerContraseña")
+          .classList.add("incorrecto");
+        document
+          .getElementById("registerContraseña")
+          .classList.remove("correcto");
       }
       break;
 
-    case "registerConfirmarCont":
+    case "registerConfirmar":
       if (expresionesRegulares.contraseña.test(e.target.value)) {
-        document.getElementById("registerConfirmarCont").classList.add("correcto");
-        document.getElementById("registerConfirmarCont").classList.remove("incorrecto");
+        document.getElementById("registerConfirmar").classList.add("correcto");
+        document
+          .getElementById("registerConfirmar")
+          .classList.remove("incorrecto");
       } else {
-        document.getElementById("registerConfirmarCont").classList.add("incorrecto");
-        document.getElementById("registerConfirmarCont").classList.remove("correcto");
-       
+        document
+          .getElementById("registerConfirmar")
+          .classList.add("incorrecto");
+        document
+          .getElementById("registerConfirmar")
+          .classList.remove("correcto");
       }
       break;
 
