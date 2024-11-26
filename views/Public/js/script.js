@@ -4,6 +4,8 @@ document
   .addEventListener("click", function () {
     document.querySelector("#form-login").style.display = "flex";
     document.querySelector("#form-register").style.display = "none";
+    document.querySelector("#form-login").style.whidt="50%"
+    document.querySelector("#form-login").style.height="50%"
   });
 
 document.querySelector("#btnFormLogin").addEventListener("click", function () {
