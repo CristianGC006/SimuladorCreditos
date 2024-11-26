@@ -14,22 +14,31 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgb(255,59,59);
+    background: radial-gradient(circle, rgba(255,59,59,1) 0%, rgba(255,255,255,1) 100%);
 }
 .login, .register{
-    width: 50%;
-    height: 50%;
+    width: 38%;
+    height: 90%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
     position: absolute;
+    background:rgb(255, 255, 255);
+    border-radius: 50px;
+    border: 4px red;
+    border-style: dashed solid;
+}
+h1{
+    color: red;
 }
 .login div, .register div{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 60%;
+    
 }
 .login input, .register input{
     height: 30px;
@@ -41,9 +50,11 @@ body{
 button[type="button"]{
     width: 40%;
     height: 40px;
-    background-color: none;
+    background-color: red;
+    color: white;
     cursor: pointer;
     border:solid 2px #ff0000;
+    border-radius: 30px;
 }
 
 .correcto{
@@ -59,4 +70,15 @@ button[type="button"]{
     transition: ease-in-out 1s;
     background-color: red;
     width: 400px;
+}
+#btnFormRegistro,#btnFormLogin{
+    color: red;
+    text-decoration: underline;
+}
+
+#btnFormRegistro,#btnFormLogin:hover{
+    color: red;
+    font-weight: bold;
+    font-size: 10;
+    transition: ease-in-out 2s;
 }

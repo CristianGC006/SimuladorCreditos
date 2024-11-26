@@ -1,0 +1,22 @@
+{
+  "name": "simuladorcreditos",
+  "version": "1.0.0",
+  "description": "Proyecto MVC, piloto, con consistencia de datos, el proyecto se construye con JS Vanila y NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "JavaScript",
+    "MVC",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Cristian Guzman",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
