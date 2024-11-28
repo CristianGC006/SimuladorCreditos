@@ -10,7 +10,7 @@ export let usuarios=[
         nombre:'Cristina',
         correo:'correoC@gmail.com',
         contraseña:'123Cogollo.+',
-        confirmar:'123Cogollo.+',
+        confirmar:'123Cogollo..+',
         usuario:'Cristina'
     }
 ];

@@ -1,0 +1,19 @@
+{
+  "modelCredito": [],
+  "modelUsuario": [
+    {
+      "nombre": "cristian",
+      "correo": "correp@gmail.com",
+      "contraseña": "Cristian1C",
+      "confirmar": "Cristian1C*",
+      "usuario": "cristian",
+      "id": "1234"
+    },
+    {
+      "id": "1d1e"
+    },
+    {
+      "id": "a766"
+    }
+  ]
+}
