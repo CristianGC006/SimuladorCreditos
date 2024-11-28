@@ -1,0 +1,5 @@
+Hay que pisicionarse en la linea del package "scripts"
+luego generar un nuevo script llamado json
+
+
+"json":"json server --(numero del puerto entre 1000 y 9999) carpeta que va a busca y luego el archivo que va a buscar"
