@@ -14,8 +14,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(255,59,59);
-    background: radial-gradient(circle, rgba(255,59,59,1) 0%, rgba(255,255,255,1) 100%);
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/userBackground.jpg);
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .login, .register{
     width: 38%;
@@ -25,13 +28,15 @@ body{
     align-items: center;
     flex-direction: column;
     position: absolute;
-    background:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     border-radius: 50px;
-    border: 4px red;
-    border-style: dashed solid;
+    box-shadow: 0 0 5px 2.5px rgb(255, 255, 255);
 }
 h1{
-    color: red;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: rgb(0, 0, 0) 2px;
+    font-size: 2.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .login div, .register div{
     display: flex;
@@ -42,6 +47,9 @@ h1{
 }
 .login input, .register input{
     height: 30px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    outline: none;
 }
 
 /* .login input:focus, .register input:focus{
@@ -57,13 +65,22 @@ button[type="button"]{
     border-radius: 30px;
 }
 
+button[type="button"]:hover{
+    background-color: white;
+    color: red;
+    transition: ease-in-out 0.5s;
+    font-size: larger;
+}
+
 .correcto{
-    outline: solid 1px rgb(94, 255, 0);
-    
+    box-shadow: green 0 0 5px 2.5px;
+    transition: ease-in-out 1s;
 }
 
 .incorrecto{
-    outline: solid 1px red;
+    
+    box-shadow: red 0 0 5px 2.5px;
+    transition: ease-in-out 0.5s;
 }
 
 #mensajeNombre{
@@ -74,6 +91,7 @@ button[type="button"]{
 #btnFormRegistro,#btnFormLogin{
     color: red;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #btnFormRegistro,#btnFormLogin:hover{
@@ -81,4 +99,24 @@ button[type="button"]{
     font-weight: bold;
     font-size: 10;
     transition: ease-in-out 2s;
+}
+
+.login input:focus, .register input:focus {
+    animation: changeColor 2s forwards;
+    color:white
+}
+
+@keyframes changeColor {
+    0% {
+        background-position: 0% 0%;
+        background-color: white;
+    }
+    50% {
+        background-position: 50% 0%;
+        background-color: rgb(34, 34, 34);
+    }
+    100% {
+        background-position: 100% 0%;
+        background-color: rgb(34, 34, 34);
+    }
 }
