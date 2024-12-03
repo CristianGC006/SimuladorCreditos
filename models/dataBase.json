@@ -4,16 +4,37 @@
     {
       "nombre": "cristian",
       "correo": "correp@gmail.com",
-      "contraseña": "Cristian1C",
+      "contraseña": "Cristian1C*",
       "confirmar": "Cristian1C*",
       "usuario": "cristian",
       "id": "1234"
     },
     {
+      "nombre": "CAMILO",
+      "correo": "correp@gmail.com",
+      "contraseña": "123Camilito",
+      "confirmar": "123Camilito",
+      "usuario": "camilo",
+      "id": "220"
+    },
+    {
       "id": "1d1e"
     },
     {
-      "id": "a766"
+      "id": "12334",
+      "nombre": "cristiano",
+      "correo": "ronaldo@gmail.com",
+      "contraseña": "CristianoR7",
+      "confirmar": "CristianoR7",
+      "usuario": "cristiano"
+    },
+    {
+      "id": "f45d",
+      "nombre": "DANIELA",
+      "usuario": "Danian",
+      "email": "dania@correo.com",
+      "contraseña": "123Dania",
+      "confirmarCont": "123Dania"
     }
   ]
 }

@@ -1,0 +1,22 @@
+Promesas nativas y promesas aSync y Awart.
+
+
+
+
+callback:Llamado d evuelta, una funcion que se puede llamar dentor de una funcion que se pudede tomar como parametro
+
+CallStack:Lo primero que se va a llamar es lo primero que se ejecutará.
+
+Promesas:Es como una promesa en la vida real, si se cumple desencadena una serie de eventos, sino se cumple pasará algo
+distinto.
+
+
+Peticiones de tipo Ajax: Forma antigua, que ya casi no tiene funcionalida. Tambien es nativa peo esta casi deprecada
+(Ya está qudando obsolta o que ya está obsoleta)
+
+Axios:Peticiones de forma asincrona, es una libreria.
+
+Fetch: Es nativa del codigo dentro del codigo que usted conoce.
+    -Es una configuracion de la peticie
+
+tanto axios y fetch trabajan con promesas, y están definidas para que no tenga que crear desde cero a la promesa.
